@@ -1,3 +1,5 @@
+import Logo from '../components/Logo'
+
 function About() {
   const tutors = [
     {
@@ -51,8 +53,11 @@ function About() {
     <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
       {/* About Header */}
       <div className="text-center mb-16">
+        <div className="flex justify-center mb-6">
+          <Logo className="w-20 h-20" />
+        </div>
         <h1 className="text-5xl font-bold text-gray-900 mb-6">
-          About Our <span className="bg-gradient-to-r from-blue-600 to-purple-600 bg-clip-text text-transparent">Internship Program</span>
+          About <span className="bg-gradient-to-r from-blue-600 to-purple-600 bg-clip-text text-transparent">Future Tech</span>
         </h1>
         <p className="text-xl text-gray-600 max-w-3xl mx-auto">
           We are dedicated to training the next generation of developers with cutting-edge skills in modern web development and GenAI integration.

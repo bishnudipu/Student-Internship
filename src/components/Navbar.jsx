@@ -1,5 +1,6 @@
 import { Link } from 'react-router-dom'
 import { useState } from 'react'
+import Logo from './Logo'
 
 function Navbar() {
   const [isOpen, setIsOpen] = useState(false)
@@ -8,11 +9,8 @@ function Navbar() {
     <header className="bg-white shadow-sm sticky top-0 z-50">
       <nav className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-4">
         <div className="flex justify-between items-center">
-          <Link to="/" className="flex items-center space-x-2">
-            <span className="text-3xl">🎓</span>
-            <h1 className="text-2xl font-bold bg-gradient-to-r from-blue-600 to-purple-600 bg-clip-text text-transparent">
-              Student Internship
-            </h1>
+          <Link to="/" className="flex items-center">
+            <Logo textClassName="hidden sm:block" />
           </Link>
           
           <div className="hidden md:flex space-x-6 items-center">

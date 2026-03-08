@@ -1,5 +1,6 @@
 import { useState } from 'react'
 import { Link } from 'react-router-dom'
+import Logo from '../components/Logo'
 
 function Login() {
   const [formData, setFormData] = useState({
@@ -25,7 +26,9 @@ function Login() {
       <div className="max-w-md w-full">
         <div className="bg-white rounded-2xl shadow-xl p-8">
           <div className="text-center mb-8">
-            <div className="text-5xl mb-4">🎓</div>
+            <div className="flex justify-center mb-4">
+              <Logo className="w-16 h-16" />
+            </div>
             <h2 className="text-3xl font-bold text-gray-900 mb-2">Welcome Back</h2>
             <p className="text-gray-600">Login to continue your learning journey</p>
           </div>

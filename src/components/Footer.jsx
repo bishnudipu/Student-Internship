@@ -1,10 +1,15 @@
+import Logo from './Logo'
+
 function Footer() {
   return (
     <footer className="bg-gray-900 text-white py-8 mt-16">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="grid md:grid-cols-3 gap-8 mb-8">
           <div>
-            <h3 className="text-xl font-bold mb-4">Student Internship</h3>
+            <div className="mb-4">
+              <Logo className="w-12 h-12" />
+            </div>
+            <h3 className="text-xl font-bold mb-2">Future Tech</h3>
             <p className="text-gray-400">Empowering the next generation of developers with modern skills and GenAI integration.</p>
           </div>
           <div>
@@ -26,7 +31,7 @@ function Footer() {
           </div>
         </div>
         <div className="border-t border-gray-800 pt-6 text-center text-gray-400">
-          <p>© 2026 Student Internship Program. All rights reserved.</p>
+          <p>© 2026 Future Tech - Student Internship Program. All rights reserved.</p>
         </div>
       </div>
     </footer>

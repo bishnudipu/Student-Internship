@@ -1,5 +1,6 @@
 import { Link } from 'react-router-dom'
 import { coursesData } from '../data/coursesData'
+import Logo from '../components/Logo'
 
 function Home() {
   return (
@@ -7,6 +8,9 @@ function Home() {
       {/* Hero Section */}
       <section className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-20">
         <div className="text-center">
+          <div className="flex justify-center mb-6">
+            <Logo className="w-24 h-24" />
+          </div>
           <h2 className="text-5xl font-bold text-gray-900 mb-6">
             Master Modern Development with
             <span className="block bg-gradient-to-r from-blue-600 to-purple-600 bg-clip-text text-transparent">
