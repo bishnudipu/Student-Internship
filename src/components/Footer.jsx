@@ -24,8 +24,8 @@ function Footer() {
           <div>
             <h4 className="text-lg font-semibold mb-4">Contact</h4>
             <ul className="space-y-2 text-gray-400">
-              <li>📧 info@studentinternship.com</li>
-              <li>📱 +91 98765 43210</li>
+              <li>📧 bishnugantayat141@gmail.com</li>
+              <li>📱 +91 9777927507</li>
               <li>📍 India</li>
             </ul>
           </div>

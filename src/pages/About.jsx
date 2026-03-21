@@ -208,10 +208,10 @@ function About() {
           Get in touch with us to learn more about our programs
         </p>
         <div className="flex flex-col sm:flex-row gap-4 justify-center">
-          <a href="mailto:info@studentinternship.com" className="inline-block bg-white text-blue-600 px-8 py-3 rounded-lg text-lg font-semibold hover:bg-gray-100 transition">
+          <a href="mailto:bishnugantayat141@gmail.com" className="inline-block bg-white text-blue-600 px-8 py-3 rounded-lg text-lg font-semibold hover:bg-gray-100 transition">
             📧 Email Us
           </a>
-          <a href="tel:+919876543210" className="inline-block bg-white bg-opacity-20 text-white px-8 py-3 rounded-lg text-lg font-semibold hover:bg-opacity-30 transition border-2 border-white">
+          <a href="tel:+919777927507" className="inline-block bg-white bg-opacity-20 text-white px-8 py-3 rounded-lg text-lg font-semibold hover:bg-opacity-30 transition border-2 border-white">
             📱 Call Us
           </a>
         </div>
