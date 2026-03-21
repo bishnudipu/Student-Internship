@@ -4,25 +4,25 @@ function About() {
   const tutors = [
     {
       id: 1,
-      name: 'Rajesh Kumar',
+      name: 'Bishnu Prasad',
       role: 'Lead Instructor - Full Stack',
       expertise: 'React, Node.js, GenAI',
-      experience: '8+ years',
+      experience: '5+ years',
       image: '👨‍💻',
       bio: 'Expert in full-stack development with extensive experience in building AI-powered applications.'
     },
     {
       id: 2,
-      name: 'Priya Sharma',
+      name: 'Anil Reddy',
       role: 'Senior Instructor - Frontend',
       expertise: 'React, JavaScript, UI/UX',
       experience: '6+ years',
-      image: '👩‍💻',
+      image: '👨‍💻',
       bio: 'Passionate about creating beautiful and functional user interfaces with modern frameworks.'
     },
     {
       id: 3,
-      name: 'Amit Patel',
+      name: 'Anewsita Patro',
       role: 'Backend Specialist',
       expertise: '.NET, C#, Azure',
       experience: '10+ years',
@@ -31,20 +31,20 @@ function About() {
     },
     {
       id: 4,
-      name: 'Sneha Reddy',
+      name: 'Bishnu Prasad',
       role: 'Database Expert',
       expertise: 'MySQL, PostgreSQL, MongoDB',
-      experience: '7+ years',
-      image: '👩‍🔬',
+      experience: '5+ years',
+      image: '👨‍💻',
       bio: 'Database optimization specialist with deep knowledge of relational and NoSQL databases.'
     },
     {
       id: 5,
-      name: 'Vikram Singh',
+      name: 'Bishnu Prasad',
       role: 'AI/ML Instructor',
       expertise: 'GenAI, Python, ML',
       experience: '5+ years',
-      image: '👨‍🔬',
+      image: '👨‍💻',
       bio: 'AI researcher and practitioner focused on integrating GenAI into real-world applications.'
     }
   ]

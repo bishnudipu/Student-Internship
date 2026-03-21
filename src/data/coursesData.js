@@ -6,7 +6,7 @@ export const coursesData = [
     duration: '12 weeks',
     level: 'Intermediate',
     icon: '⚛️',
-    price: '₹4,000',
+    price: '₹3,000',
     curriculum: [
       { week: 1, topic: 'React Fundamentals', details: 'Components, Props, State, JSX syntax' },
       { week: 2, topic: 'React Hooks', details: 'useState, useEffect, useContext, custom hooks' },
@@ -29,7 +29,7 @@ export const coursesData = [
     duration: '12 weeks',
     level: 'Intermediate',
     icon: '🟢',
-    price: '₹4,000',
+    price: '₹3,000',
     curriculum: [
       { week: 1, topic: 'Node.js Fundamentals', details: 'Event loop, modules, npm basics' },
       { week: 2, topic: 'Express.js Framework', details: 'Routing, middleware, request handling' },
@@ -52,7 +52,7 @@ export const coursesData = [
     duration: '12 weeks',
     level: 'Intermediate',
     icon: '🔷',
-    price: '₹4,000',
+    price: '₹3,000',
     curriculum: [
       { week: 1, topic: 'C# & .NET Fundamentals', details: 'C# syntax, OOP concepts, .NET ecosystem' },
       { week: 2, topic: 'ASP.NET Core Basics', details: 'MVC pattern, dependency injection' },
@@ -94,7 +94,7 @@ export const coursesData = [
     duration: '16 weeks',
     level: 'Advanced',
     icon: '🚀',
-    price: '₹7,000',
+    price: '₹3,000',
     featured: true,
     curriculum: [
       { week: 1, topic: 'Full Stack Overview', details: 'Architecture, project setup, Git workflow' },
@@ -122,7 +122,7 @@ export const coursesData = [
     duration: '16 weeks',
     level: 'Advanced',
     icon: '💎',
-    price: '₹7,000',
+    price: '₹3,000',
     featured: true,
     curriculum: [
       { week: 1, topic: 'Full Stack Architecture', details: 'Enterprise patterns, project structure' },
